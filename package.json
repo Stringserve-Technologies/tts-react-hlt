@@ -1,0 +1,28 @@
+{
+  "name": "tts-react-hlt",
+  "version": "1.2.0",
+  "description": "React hook and component for converting text to speech using the Web Speech API or Amazon Polly.",
+ 
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js",
+    "./package.json": "./package.json"
+  },
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stringserve-Technologies/tts-react-hlt.git"
+  },
+  "author": "Arunkumar.c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stringserve-Technologies/tts-react-hlt/issues"
+  },
+  "homepage": "https://github.com/Stringserve-Technologies/tts-react-hlt#readme"
+}
